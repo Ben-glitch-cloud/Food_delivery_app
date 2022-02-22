@@ -1,0 +1,33 @@
+.FoodItemCon{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin: 10px 20px;  
+    padding: 0px 15px;
+    border-radius: 10px; 
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+} 
+
+.FormCon{
+    display: flex; 
+    flex-direction: row; 
+} 
+
+.FormCon input{
+    margin: 0pc 5px; 
+    text-align: center;  
+    padding: 12px; 
+    border-radius: 25px; 
+    border: solid deepskyblue 2px; 
+} 
+
+.FormConButton{
+    border: solid deepskyblue 2px; 
+    background-color: white;
+} 
+
+.FormConButton:hover{
+    background-color: deepskyblue; 
+    color: white;
+}

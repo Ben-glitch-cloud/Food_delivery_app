@@ -1,0 +1,39 @@
+
+.BasketCon{
+    width: 100%; 
+    height: 60px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: flex-end; 
+    background-color: deepskyblue; 
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+} 
+
+.BasketItem{
+    margin: 0px 0px;
+    background-color: white;  
+    padding: 10px; 
+    border-radius: 25px; 
+    width: 80px;
+}  
+
+.BasketItemButton{
+    margin: 0px 25px; 
+    background-color: white; 
+    padding: 10px; 
+    border-radius: 25px;   
+    border: solid white 2px; 
+    font-size: 14px;
+}  
+
+.BasketItemButton:hover{
+    background-color: deepskyblue; 
+    color: white;
+}
+
+
+.BasketItem p{
+    margin: 0px;
+    padding: 0px; 
+    text-align: center;
+}
