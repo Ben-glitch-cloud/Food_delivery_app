@@ -3,7 +3,7 @@ import FoodList from './Components/FoodList/FoodList'
 import Header from './Components/Header/Header' 
 import Basket from './Components/Basket/Basket' 
 import BasketWindow from './Components/BasketWindow/BasketWindow'
-import React, {useEffect, useState} from 'react'  
+import React, {useEffect, useState} from 'react'   
 import FoodItems from './DummyData'
 
 function App() {  
